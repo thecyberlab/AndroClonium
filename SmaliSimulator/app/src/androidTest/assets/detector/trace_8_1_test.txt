@@ -1,0 +1,86 @@
+LTest;->test8>>if-gtz v4 @2 &0
+LTest;->test8>>const/4 v0 0 &2
+LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>goto @3 &8
+LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>goto @3 &8
+LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>goto @3 &8
+LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>goto @3 &8
+LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>add-int/lit8 v0 v4 -1 &9
+LTest;->test8>>invoke-virtual v3 v0 LTest;->test8(I)V &10|{"first passed argument register":4,"local registers":3,"signature":"LTest;->test8(I)V","modifiers":"public","total registers":5}
+LTest;->test8>>LTest;->test8>>if-gtz v4 @2 &0
+LTest;->test8>>LTest;->test8>>const/4 v0 0 &2
+LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>LTest;->test8>>goto @3 &8
+LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>LTest;->test8>>goto @3 &8
+LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>LTest;->test8>>goto @3 &8
+LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v4 -1 &9
+LTest;->test8>>LTest;->test8>>invoke-virtual v3 v0 LTest;->test8(I)V &10|{"first passed argument register":4,"local registers":3,"signature":"LTest;->test8(I)V","modifiers":"public","total registers":5}
+LTest;->test8>>LTest;->test8>>LTest;->test8>>if-gtz v4 @2 &0
+LTest;->test8>>LTest;->test8>>LTest;->test8>>const/4 v0 0 &2
+LTest;->test8>>LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>LTest;->test8>>LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>LTest;->test8>>LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>LTest;->test8>>LTest;->test8>>goto @3 &8
+LTest;->test8>>LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>LTest;->test8>>LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>LTest;->test8>>LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>LTest;->test8>>LTest;->test8>>goto @3 &8
+LTest;->test8>>LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v4 -1 &9
+LTest;->test8>>LTest;->test8>>LTest;->test8>>invoke-virtual v3 v0 LTest;->test8(I)V &10|{"first passed argument register":4,"local registers":3,"signature":"LTest;->test8(I)V","modifiers":"public","total registers":5}
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>if-gtz v4 @2 &0
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>const/4 v0 0 &2
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>const-string v2 "." &5
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &6
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v0 1 &7
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>goto @3 &8
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>if-ge v0 v4 @9 &3
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>add-int/lit8 v0 v4 -1 &9
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>invoke-virtual v3 v0 LTest;->test8(I)V &10|{"first passed argument register":4,"local registers":3,"signature":"LTest;->test8(I)V","modifiers":"public","total registers":5}
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>if-gtz v4 @2 &0
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>return-void &1
+LTest;->test8>>LTest;->test8>>LTest;->test8>>LTest;->test8>>return-void &11
+LTest;->test8>>LTest;->test8>>LTest;->test8>>return-void &11
+LTest;->test8>>LTest;->test8>>return-void &11
+LTest;->test8>>return-void &11

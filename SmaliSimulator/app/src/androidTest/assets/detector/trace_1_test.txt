@@ -1,0 +1,12 @@
+LTest;->onCreate>>test1()V>>const/4 v0 0x2 &-1
+LTest;->onCreate>>test1()V>>const/4 v1 0x0 &-1
+LTest;->onCreate>>test1()V>>add-int/lit8 v1 v1 1 &7
+LTest;->onCreate>>test1()V>>if-gt v1 v0 @9 &3
+LTest;->onCreate>>test1()V>>sget-object v2 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->onCreate>>test1()V>>const-string v3 "* " &5
+LTest;->onCreate>>test1()V>>invoke-virtual v2 v3 Ljava/io/PrintStream;->print(Ljava/lang/String;)V &6
+LTest;->onCreate>>test1()V>>add-int/lit8 v1 v1 1 &7
+LTest;->onCreate>>test1()V>>if-gt v1 v0 @9 &3
+LTest;->onCreate>>test1()V>>sget-object v2 Ljava/lang/System;->out:Ljava/io/PrintStream; &4
+LTest;->onCreate>>test1()V>>const-string v3 "* " &5
+LTest;->onCreate>>test1()V>>invoke-virtual v2 v3 Ljava/io/PrintStream;->print(Ljava/lang/String;)V &6

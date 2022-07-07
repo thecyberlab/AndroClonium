@@ -1,0 +1,8 @@
+LTest;->test7>>new-instance v0 Ljava/lang/NullPointerException; &0
+LTest;->test7>>invoke-direct v0 Ljava/lang/NullPointerException;-><init>()V &1
+LTest;->test7>>throw v0 &2
+LTest;->test7>>move-exception v0 &5
+LTest;->test7>>invoke-virtual v0 Ljava/lang/Exception;->printStackTrace()V &6
+LTest;->test7>>new-instance v0 Ljava/lang/IllegalStateException; &7
+LTest;->test7>>invoke-direct v0 Ljava/lang/IllegalStateException;-><init>()V &8
+LTest;->test7>>throw v0 &9

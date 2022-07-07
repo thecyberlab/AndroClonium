@@ -1,0 +1,63 @@
+LTest;->test2()V>>const/4 v0 0x0 &0
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>const/16 v1 0xa &1
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>sget-object v1 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test2()V>>const-string v2 "." &4
+LTest;->test2()V>>invoke-virtual v1 v2 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &5
+LTest;->test2()V>>add-int/lit8 v0 v0 0x1 &6
+LTest;->test2()V>>if-ge v0 v1 &2
+LTest;->test2()V>>return-void &7

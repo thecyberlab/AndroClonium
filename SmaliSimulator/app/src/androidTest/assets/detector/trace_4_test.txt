@@ -1,0 +1,30 @@
+LTest;->test4>>if-gtz v3 @2 &0
+LTest;->test4>>sget-object v0 Ljava/lang/System;->out:Ljava/io/PrintStream; &2
+LTest;->test4>>const-string v1 "." &3
+LTest;->test4>>invoke-virtual v0 v1 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &4
+LTest;->test4>>add-int/lit8 v0 v3 -1 &5
+LTest;->test4>>invoke-virtual v2 v0 LTest;->test4(I)V &6|{"first passed argument register":3,"local registers":2,"signature":"LTest;->test4(I)V","modifiers":"public","total registers":4}
+LTest;->test4>>LTest;->test4>>if-gtz v3 @2 &0
+LTest;->test4>>LTest;->test4>>sget-object v0 Ljava/lang/System;->out:Ljava/io/PrintStream; &2
+LTest;->test4>>LTest;->test4>>const-string v1 "." &3
+LTest;->test4>>LTest;->test4>>invoke-virtual v0 v1 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &4
+LTest;->test4>>LTest;->test4>>add-int/lit8 v0 v3 -1 &5
+LTest;->test4>>LTest;->test4>>invoke-virtual v2 v0 LTest;->test4(I)V &6|{"first passed argument register":3,"local registers":2,"signature":"LTest;->test4(I)V","modifiers":"public","total registers":4}
+LTest;->test4>>LTest;->test4>>LTest;->test4>>if-gtz v3 @2 &0
+LTest;->test4>>LTest;->test4>>LTest;->test4>>sget-object v0 Ljava/lang/System;->out:Ljava/io/PrintStream; &2
+LTest;->test4>>LTest;->test4>>LTest;->test4>>const-string v1 "." &3
+LTest;->test4>>LTest;->test4>>LTest;->test4>>invoke-virtual v0 v1 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &4
+LTest;->test4>>LTest;->test4>>LTest;->test4>>add-int/lit8 v0 v3 -1 &5
+LTest;->test4>>LTest;->test4>>LTest;->test4>>invoke-virtual v2 v0 LTest;->test4(I)V &6|{"first passed argument register":3,"local registers":2,"signature":"LTest;->test4(I)V","modifiers":"public","total registers":4}
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>if-gtz v3 @2 &0
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>sget-object v0 Ljava/lang/System;->out:Ljava/io/PrintStream; &2
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>const-string v1 "." &3
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>invoke-virtual v0 v1 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &4
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>add-int/lit8 v0 v3 -1 &5
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>invoke-virtual v2 v0 LTest;->test4(I)V &6|{"first passed argument register":3,"local registers":2,"signature":"LTest;->test4(I)V","modifiers":"public","total registers":4}
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>if-gtz v3 @2 &0
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>return-void &1
+LTest;->test4>>LTest;->test4>>LTest;->test4>>LTest;->test4>>return-void &7
+LTest;->test4>>LTest;->test4>>LTest;->test4>>return-void &7
+LTest;->test4>>LTest;->test4>>return-void &7
+LTest;->test4>>return-void &7

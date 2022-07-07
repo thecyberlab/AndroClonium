@@ -1,0 +1,6 @@
+LTest;->test5>>const-string v0 "hello" &0
+LTest;->test5>>const-string v1 "goodbye" &1
+LTest;->test5>>move-object v1 v0 &2
+LTest;->test5>>sget-object v2 Ljava/lang/System;->out:Ljava/io/PrintStream; &3
+LTest;->test5>>invoke-virtual v2 v1 Ljava/io/PrintStream;->println(Ljava/lang/String;)V &4
+LTest;->test5>>return-void &5

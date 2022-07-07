@@ -1,0 +1,12 @@
+# Java class files
+*.class
+
+# Ignore Gradle files
+.gradle/
+build/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iws
+
+

@@ -1,0 +1,3 @@
+LTest;->test0()V>>sget-object v0 Ljava/lang/System;->out:Ljava/io/PrintStream; &0
+LTest;->test0()V>>const-string v1 "*" &1
+LTest;->test0()V>>invoke-virtual v0 v1 Ljava/io/PrintStream;->print(Ljava/lang/String;)V &2
